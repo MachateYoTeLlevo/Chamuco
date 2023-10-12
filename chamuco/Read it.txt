@@ -1,0 +1,10 @@
+Desde la última vez, hubo mejoras:
+
+°se cambió el color del background.
+°se mejoró los productos  (son más grandes para que ocupen mejor el espacio).
+°se agregaron divs para mejorar la organización de la página.
+°se agregó un registro (aunque no tiene nada de backend, solo un poco de php).
+°se mejoraron los sliders en la pagina (agregué 2, uno de publicidad y otro con los "auspiciantes" de la web).
+°se agregaron "ofertas", para ocupar mejor el espacio y darle un espacio entre los productos.
+°se agregó un botón de whatapp (corrección del anterior).
+°se agregarons los footers (y creo que resolví el problema de estos).

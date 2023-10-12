@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+body{
+    background: #fff;
+    background: linear-gradient(90deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 48%, rgba(222,222,222,1) 100%);
+    overflow-x: hidden;
+    
+}
+header{
+    top:0;
+    background-color: rgb(41, 41, 41);
+    align-items: center;
+    justify-content: center;
+    height: 6em;
+    box-shadow: 0px 5px 20px 6px rgb(36, 36, 36);
+    z-index:1;
+    width: 100vw;
+}
+
+header img{
+    width: 5.4em;
+    margin-right: 2em;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0.9em;
+    width: 100vw;
+
+}
+
+li{
+    display: inline-block;
+    list-style-type:none;
+    margin: 0.6em;   
+     
+}
+
+.link{
+    text-decoration: none;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.link:visited{
+    text-decoration: none;
+}
+
+nav input{
+    height: 2.5em;
+    padding-left: 2.3em;
+    width: 22em; 
+    border-radius: 30px;
+    box-shadow: 0px 5px 30px 6px rgb(172, 37, 37);
+    border: 1px solid silver;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+.link:hover{
+    color:red;
+}
+
+.init img{
+    width: 1.8em;
+    margin-right: 0.8em;
+}
+
+.init label{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+.init label:hover{
+    cursor:pointer;
+}
+
+.init{
+    margin-left: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(91, 91, 91);
+    padding-top: 0.65em;
+    padding-bottom: 0.7em;
+    padding-left: 0.6em;
+    padding-right: 0.8em;
+    border-radius: 30px;
+    transition: all 0.2s ease-in-out;
+    width: 10em;
+    height: 1.6em;
+    cursor:pointer;
+    color: white;
+}
+
+.init a{
+    text-decoration: none;
+    color:white;
+}
+
+.init a:visited{
+    text-decoration: none;
+    color:white;
+}
+
+.init a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+.producto img{
+    width: 100%;
+}
+
+.arriba{
+    width: 100%;
+    box-shadow: 0px 1px 1px 0px rgb(188, 188, 188);
+}
+
+.abajo .titulo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    color: rgb(66, 66, 66);
+    
+}
+
+.abajo .precio{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+
+.abajo{
+    padding-left: 1em;
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadro{
+    background-color: white;
+    height: 23em;
+    width: 16em;
+    padding-bottom: 1em;
+    padding-top:0.2em;
+    padding-left:0.2em;
+    padding-right:0.2em;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 0px rgb(173, 173, 173);
+    transition: all 0.2s ease-in-out;
+    margin: 1em;
+
+} 
+
+.cuadro:hover{
+    background-color: white;
+    height: 23em;
+    width: 16em;
+    padding-bottom: 1em;
+    padding-top:0.2em;
+    padding-left:0.2em;
+    padding-right:0.2em;
+    border-radius: 8px;
+    box-shadow: 2px 4px 10px 0px rgb(169, 169, 169);
+    margin: 1em;
+    cursor: pointer;
+}
+
+.fila{
+    display: flex;
+}
+
+.producto a{
+    text-decoration: none;
+    color:black;
+}
+.producto a:visited{
+    text-decoration: none;
+    color:black;
+}
+.producto a:hover{
+    text-decoration: none;
+    color:black;
+}
+
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+footer{
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    bottom: 0;
+    width: 100vw;
+}
+
+#pie{
+    color: rgb(134, 134, 134);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7em;
+}
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+
+.whatsapp-icon {
+    margin-top:13px;
+}
+.whatsapp:hover{
+    transform: scale(1.15);
+}
+
+.filapublicidad{
+    display: flex;
+    
+}
+
+.filapublicidad img{
+    width: 44em;
+    margin: 1em;
+    box-shadow: 1px 0px 1px 0px rgb(173, 173, 173);
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.filapublicidad img:hover{
+    box-shadow: 1px 0px 10px 0px rgb(169, 169, 169);
+}
